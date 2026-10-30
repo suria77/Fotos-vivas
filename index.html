@@ -7,6 +7,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <title>Fotos Vivas</title>
+<link rel="icon" type="image/png" href="icon-64.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Fotos Vivas">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -30,6 +34,8 @@ h1,h2,h3,p{margin:0}
 .brand{display:flex;align-items:center;gap:12px;min-width:0}
 .mark{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;flex:0 0 auto;
   background:radial-gradient(circle at 30% 25%,#ffe9b3,#e8b44d 55%,#8a5f14);box-shadow:0 0 28px rgba(232,180,77,.35)}
+.mark{background:none!important;box-shadow:0 0 28px rgba(255,140,60,.35)}
+.mark img{width:46px;height:46px;border-radius:14px;display:block}
 .mark svg{width:26px;height:26px;stroke:#1a1204;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .brand h1{font:700 32px/1 "Cormorant Garamond",Georgia,serif;letter-spacing:.3px;
   background:linear-gradient(90deg,#fff1cc,#e8b44d);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -171,7 +177,7 @@ input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;bac
 
 <header class="top">
   <div class="brand">
-    <div class="mark"><svg viewBox="0 0 24 24"><path d="M3 12c3-6 6-6 9 0s6 6 9 0"/><path d="M3 18c3-6 6-6 9 0s6 6 9 0" opacity=".55"/></svg></div>
+    <div class="mark"><img src="icon-192.png" alt="" width="44" height="44"></div>
     <div><h1>Fotos Vivas</h1><p>Mueve tus imágenes en un bucle infinito</p></div>
   </div>
   <div class="actions">
